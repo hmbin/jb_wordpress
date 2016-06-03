@@ -1,0 +1,43 @@
+= Version 1.0.8 =
+* Innerpage banner working with custom header banner of WordPress default
+* Homepage Heading, Homepage Sub Heading, Blog Button URL options disabled by default
+* Others as guided by reviewer.
+
+
+= Version 1.0.7 =
+* Custom logo from WordPress default Site Identity
+* Removed breadcrumbs function
+* Header-text color and Background Image turned to false for not supporting by this theme
+* Others as guided by reviewer.
+
+
+= Version 1.0.6 =
+* Others as guided by reviewer.
+
+
+= Version 1.0.5 =
+* Removed Post Views functions
+* Others as guided by reviewer.
+
+
+= Version 1.0.4 =
+* Added Word breaks on pages, posts and sidebars
+
+
+= Version 1.0.3 =
+* Fixing of JS errors and some CSS issues
+* Others as guided by reviewer.
+
+
+= Version 1.0.2 =
+* Removed Social Share Option
+* Others as guided by reviewer.
+
+
+= Version 1.0.1 =
+* Fixed minor coding issues.
+* Others as guided by reviewer.
+
+
+= Version 1.0.0 =
+* Initial Release

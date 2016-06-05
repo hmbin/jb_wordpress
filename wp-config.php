@@ -26,16 +26,20 @@ define('DB_NAME', 'lightcar');
 define('DB_USER', 'root');
 
 /** MySQL数据库密码 */
-define('DB_PASSWORD', 'miniserver');
+define('DB_PASSWORD', '123456');
 
 /** MySQL主机 */
 define('DB_HOST', 'localhost');
 
 /** 创建数据表时默认的文字编码 */
-define('DB_CHARSET', 'utf8');
+define('DB_CHARSET', 'utf8mb4');
 
 /** 数据库整理类型。如不确定请勿更改 */
 define('DB_COLLATE', '');
+
+define("FS_METHOD", "direct");  
+define("FS_CHMOD_DIR", 0777);  
+define("FS_CHMOD_FILE", 0777); 
 
 /**#@+
  * 身份认证密钥与盐。
@@ -47,14 +51,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'l+dV2vR11/`y}jBT4LSo4LgG$-,FIx)5b<>B;*(%(%}s7!;$H+-FxI/;wbpi|SZ9');
-define('SECURE_AUTH_KEY',  '-Zab8Cil[?Q4$>2-2)Qk{;5cG3}7tfUc{O&H}%EXpYgz;*UT) daKq=b$kej,>YP');
-define('LOGGED_IN_KEY',    'AD3seRGOWK_*Eo6+`CA^nT|x+z1T 7{V0+i}q>?ZX@;7%&)wHjm-MPxRD-F`uDJD');
-define('NONCE_KEY',        '^F:z&+bOBDV5C>d3B0d&N#(1aSs)`uZ!54n8,3S,j}G(x(=g4P7o7i+`9%QDD<67');
-define('AUTH_SALT',        's3XQyT}d4xeL5$0~YM~@,Bo#H`rNkWFD|9wf@.tS:5^/(PBc|[b{|rm/[gB=fGl>');
-define('SECURE_AUTH_SALT', 'jy0&T,jkwj7m33SYQa}dD}*P5y9ai?d>aPy&~9*Py~hr</N!;8|u5<Rf{6lqEQ<]');
-define('LOGGED_IN_SALT',   'tS,K%OMN2K#Lw-{/ qIz?,^bop+gd]G2:p0mL,gbo,@PS_KYA965}PsrquDB_W$A');
-define('NONCE_SALT',       'EMUo-vD0z[06>NH38q.4q4uX?3SrS[`.7j)UeC+(rN5ex:-pu)UI(hD[hyE}8,m<');
+define('AUTH_KEY',         'Po>Z,Mpsz@#g2gMU6`ATQ1hC9vdG4x8Zp_>Ph0J)mAq<|4ADQ6|2|r8HHgy,Lz-C');
+define('SECURE_AUTH_KEY',  ',24u!!hLu]ItTyq~A-cLJ8r+ykgtl8B[z1lFCSBW@kb5OBA?Btvjq-AO%^-]9b}N');
+define('LOGGED_IN_KEY',    '<(G<VwDvqWs;.|jbblr`&<o;473MJhq2dq(a/Lqs,!Yw!QO5CHCY])ypDE][Y&sO');
+define('NONCE_KEY',        '4^%}?e,20tU@?^DZrMDRF9]xu13B6>9e]0c!`!T.(rXa^7;Vr*i]9`<YU[Ls]E/A');
+define('AUTH_SALT',        'Rp1)UI`JU+Oz8&I:54=`oU&`99(-rr);KBx&9#h_GJ]X+[DJE0CXExwtL7@Ho4FS');
+define('SECURE_AUTH_SALT', ',FhW}9%2ZyWZWGs%yg`7G3}^$1tWC{=H&pJGv+(rv7lX{:%/9UIW,O?}l#x:R?x/');
+define('LOGGED_IN_SALT',   '!<^BawNz18)D3)fEUuEnIXbY7)(;WHFGLtY+bloCBro=+RB,rQ l=#B#`L;1`: 6');
+define('NONCE_SALT',       'CZi5>A}q02f|bh|oZkCr5^=g-l{pa7&SzNIs%*%DO[!fmBb,8UV/C5gB#]>?p%,,');
 
 /**#@-*/
 
@@ -64,7 +68,7 @@ define('NONCE_SALT',       'EMUo-vD0z[06>NH38q.4q4uX?3SrS[`.7j)UeC+(rN5ex:-pu)UI
  * 如果您有在同一数据库内安装多个WordPress的需求，请为每个WordPress设置
  * 不同的数据表前缀。前缀名只能为数字、字母加下划线。
  */
-$table_prefix  = 'lc';
+$table_prefix  = 'lc_';
 
 /**
  * 开发者专用：WordPress调试模式。

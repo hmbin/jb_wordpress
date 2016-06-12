@@ -17,7 +17,7 @@ get_header(); ?>
 <section class="innerpage section-spacing">
 	
 	<div class="row">
-		<div class="container">
+		<div class="container custom-container">
 
 			<?php
 			  	$class = 'col-md-12';
@@ -33,7 +33,7 @@ get_header(); ?>
 			    }
 			?>
 
-			<div class="<?php echo $class;?> detail-content">
+			<div class=" detail-content row">
 
 				<?php while ( have_posts() ) : the_post(); ?>
 					<?php get_template_part( 'template-parts/content', 'page' ); ?>	

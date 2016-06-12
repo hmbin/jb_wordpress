@@ -12,6 +12,6 @@ if ( ! is_active_sidebar( 'sidebar-2' ) ) {
 }
 ?>
 
-<div class="col-md-3 col-sm-6">
+<div class="col-md-8 col-sm-6">
 	<?php dynamic_sidebar( 'sidebar-2' ); ?>
 </div>

@@ -2274,3 +2274,42 @@ object {
 #wpadminbar>#wp-toolbar span.noticon:hover{
   color: #0073aa !important;
 }
+
+/* --------------------------- custom -----------------------------------*/
+
+.custom-header {
+  height: 60px;  
+}
+.huge_it_slideshow_image_wrap1_1{
+  margin-top: 60px;
+}
+.blog-details {
+  border-bottom: 0;
+  margin-bottom: 5px;
+}
+.blog-details figure {
+  height: auto;
+}
+.ul-style{
+  margin: 0;
+  padding: 0;
+  list-style-type:none;
+  width:900px;
+}
+.left{
+  margin: 0;
+  padding: 0;
+  list-style-type:none;
+  float: left;
+}
+.left3{
+  padding-left:3px;
+}
+ul, li{
+  margin: 0;
+  padding: 0;
+  list-style-type:none;
+}
+.custom-container{
+  width: 900px;
+}

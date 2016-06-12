@@ -4,7 +4,7 @@
 Plugin Name: Huge IT Slider
 Plugin URI: http://huge-it.com/slider
 Description: Huge IT slider is a convenient tool for organizing the images represented on your website into sliders. Each product on the slider is assigned with a relevant slider, which makes it easier for the customers to search and identify the needed images within the slider.
-Version: 3.1.84
+Version: 3.1.85
 Author: Huge-IT
 Author URI: http://huge-it.com/
 License: GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
@@ -57,6 +57,15 @@ function huge_it_slider_images_list_shotrcode($atts)
     ), $atts));
 	add_style_to_header($atts['id']);
 	add_action('wp_footer', 'add_style_to_header');
+        
+        wp_register_script( 'bxSlider',plugins_url("js/jquery.bxslider.js", __FILE__) ,array ('jquery'), '1.0.0', true);
+	wp_enqueue_script('bxSlider');
+	wp_register_script( 'bxSliderSetup',plugins_url("js/bxslider.setup.js", __FILE__) ,array ('jquery'), '1.0.0', true);
+	wp_enqueue_script('bxSliderSetup');
+
+	wp_register_style( 'bxSlidercss',plugins_url("style/jquery.bxslider.css", __FILE__));
+	wp_enqueue_style('bxSlidercss');
+        
     return huge_it_cat_images_list($atts['id']);
 }
 
@@ -481,7 +490,7 @@ function huge_it_slider_admin_script()
 		
 
 }
-function huge_it_enque_bx_slider (){
+/*function huge_it_enque_bx_slider (){
 	wp_register_script( 'bxSlider',plugins_url("js/jquery.bxslider.js", __FILE__) ,array ('jquery'), '1.0.0', true);
 	wp_enqueue_script('bxSlider');
 	wp_register_script( 'bxSliderSetup',plugins_url("js/bxslider.setup.js", __FILE__) ,array ('jquery'), '1.0.0', true);
@@ -490,7 +499,7 @@ function huge_it_enque_bx_slider (){
 	wp_register_style( 'bxSlidercss',plugins_url("style/jquery.bxslider.css", __FILE__));
 	wp_enqueue_style('bxSlidercss');
 }
-add_action('wp_footer','huge_it_enque_bx_slider' );
+add_action('wp_footer','huge_it_enque_bx_slider' );*/
 function huge_it_slider_option_admin_script()
 {
 		wp_enqueue_script("jquery_old", "http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js", FALSE);
@@ -1183,7 +1192,7 @@ function add_style_to_header($id) {
 		display: table-cell;
 		filter: Alpha(opacity=100);
 		opacity: 1;
-		position: absolute;
+		position: absolute !important;
 		top:0px !important;
 		left:0px !important;
 		vertical-align: middle;
@@ -1201,7 +1210,7 @@ function add_style_to_header($id) {
 		display: table-cell;
 		filter: Alpha(opacity=0);
 		opacity: 0;
-		position: absolute;
+		position: absolute !important;
 		top:0px !important;
 		left:0px !important;
 		vertical-align: middle;

@@ -4,7 +4,7 @@ Donate link: http://huge-it.com/slider/
 Tags: slider, slideshow, wordpress slider, content slider, image slider, Photo Slider, slider plugin, responsive slider, carousel slider, wp slider, vertical slider, image slider, post slider, video slider, touch slider, youtube slider, wordpress slideshow, gallery, gallery slider,
 Requires at least: 3.0.1
 Tested up to: 4.5.2
-Stable tag: 3.1.84
+Stable tag: 3.1.85
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -309,6 +309,9 @@ There are errors in site/theme, or some other external reason, our support team 
 If you think, that you found a bug in our [WordPress Slider](http://huge-it.com/slider/) plugin or have any question contact us at [info@huge-it.com](mailto:info@huge-it.com)
 
 == Changelog ==
+
+= 3.1.85 =
+* Firefox and explorer pause on hover bug fix, enqueue update.
 
 = 3.1.84 =
 * Thumbnails bug fixes, border size bug fixes.

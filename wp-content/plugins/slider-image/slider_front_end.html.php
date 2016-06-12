@@ -35,9 +35,12 @@ $GLOBALS['changespeed']=$slider[0]->param;
 <script>
 	var huge_video_playing={};
 	var autoplayMatch={};
-	
-	
-
+	var scrolling = false;
+    jQuery(window).load(function(){
+        setTimeout(function(){
+            jQuery('.huge_it_slide_container_<?php echo $sliderID; ?>').mouseleave();
+        }, 100);
+    });
 </script>
 
 
@@ -955,8 +958,10 @@ $GLOBALS['changespeed']=$slider[0]->param;
 		if(pausehover=="on"){
 			jQuery("#huge_it_slideshow_image_container_<?php echo $sliderID; ?>, .huge_it_slideshow_image_container_<?php echo $sliderID; ?>").hover(function(){
 				window.clearInterval(huge_interval['huge_it_playInterval_'+<?php echo $sliderID; ?>]);
+                scrolling = false;
 			},function(){
 				window.clearInterval(huge_interval['huge_it_playInterval_'+<?php echo $sliderID; ?>]);
+                scrolling = true;                                   
 				play_<?php echo $sliderID; ?>();
 			});		
 		}	
@@ -967,11 +972,13 @@ $GLOBALS['changespeed']=$slider[0]->param;
       function play_<?php echo $sliderID; ?>(){	   
         /* Play.*/
 		//errorlogjQuery(".huge_it_slideshow_image_wrap_<?php echo $sliderID; ?>").after(" -- paly  ---- ");
+    if(scrolling){                                           
         huge_interval['huge_it_playInterval_'+<?php echo $sliderID; ?>] = setInterval(function () {
 			//errorlogjQuery(".huge_it_slideshow_image_wrap_<?php echo $sliderID; ?>").after(" -- time left ---- ");
           var iterator = 1;
           huge_it_change_image_<?php echo $sliderID; ?>(parseInt(jQuery('#huge_it_current_image_key_<?php echo $sliderID; ?>').val()), (parseInt(jQuery('#huge_it_current_image_key_<?php echo $sliderID; ?>').val()) + iterator) % data_<?php echo $sliderID; ?>.length, data_<?php echo $sliderID; ?>,false,false);
         }, '<?php echo $slidepausetime; ?>');
+     }                              
       }
 	  
       jQuery(window).focus(function() {

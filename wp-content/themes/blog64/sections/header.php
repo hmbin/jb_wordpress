@@ -1,5 +1,5 @@
-<?php if( is_front_page()  && get_theme_mod('blog64_bg_image', get_template_directory_uri() .'/images/bg.jpg' ) != '') : ?>
-        <img class="img-responsive" src="<?php echo esc_url(get_theme_mod('blog64_bg_image', get_template_directory_uri().'/images/bg.jpg' ) ); ?>" />
+<?php if( is_front_page() ) : ?>
+        <?php echo do_shortcode("[huge_it_slider id='1']"); ?>
  	<?php elseif( is_single() && has_post_thumbnail() ) : ?>
         <?php the_post_thumbnail('blog64-header-full', array('class' =>'img-responsive')); ?>
  	<?php elseif ( get_header_image() ) : ?>
@@ -8,7 +8,7 @@
 
 
 <nav class="navbar navbar-default navbar-fixed-top">
-	<div class="container header">
+	<div class="container header custom-header">
 		<div class="row logo"> 
 			<div class="col-sm-3">				
 

@@ -13,3 +13,10 @@ Tags: blue, white, responsive-layout, one-column, two-columns, right-sidebar, le
 This theme, like WordPress, is licensed under the GPL.
 
 */
+
+.custom-header {
+  height: 60px;  
+}
+.huge_it_slideshow_image_wrap1_1{
+  margin-top: 60px;
+}

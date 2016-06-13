@@ -8,14 +8,11 @@
 					dynamic_sidebar( 'footer-blocks' );  
 				endif; 
         	?>
-        	<hr>
-
+          
         	<div class="col-md-9 col-sm-12 text-left"> 
         		<small><?php echo esc_attr(get_theme_mod( 'copyright_textbox', __( '', 'blog64' ) ) ); ?>
         			<span class="sep"> | </span>
-                    <a href="<?php echo esc_url( __( 'https://wordpress.org/', 'blog64' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'blog64' ), 'WordPress' ); ?></a>
-                    <span class="sep"> | </span>
-                    <?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'blog64' ), 'blog64', '<a href="'.esc_url( __( 'http://sumanshresthaa.com.np', 'blog64' ) ).'" rel="designer">Suman Shrestha</a>' ); ?></small>
+                    <a href="<?php echo esc_url( __( 'http://protchar.cn/', 'blog64' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s.', 'blog64' ), 'Protchar' ); ?></a></small>
       		</div>	        	
 	      		
       		<div class="col-md-3 col-sm-12"> 

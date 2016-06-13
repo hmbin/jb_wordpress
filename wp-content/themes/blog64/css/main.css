@@ -2319,3 +2319,22 @@ ul, li{
   background-size: 627px 46px;
   background-repeat:no-repeat;
 }
+.custom-widget-span{
+  display: none;
+}
+.custom-content-right{
+  width: 203px;
+  float: right;
+  padding: 2px;
+  border: #F3F3F4 2px solid;
+}
+.custom-content-right ul {
+  width: 203px;
+  background: #F3F3F4;
+}
+.top10 {
+  margin-top: 10px;
+}
+.site-footer small, .footer-links a {
+  padding-top: 0;
+}

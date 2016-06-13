@@ -48,10 +48,16 @@ get_header(); ?>
 				
 			</div><!-- detail-content -->	
 
-			<?php  if ($sidebar == 'right'){             
+			<div class="row">
+
+				<?php  if ($sidebar == 'right'){             
 			  	get_sidebar('right');            
 			  	}
-			?>
+				?>
+
+		  	<?php include (TEMPLATEPATH . '/content_right.php'); ?>
+
+			</div> 
 
 		</div>
 	</div>

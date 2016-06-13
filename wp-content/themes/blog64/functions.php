@@ -135,8 +135,8 @@ function blog64_widgets_init() {
 		'description'   => '',
 		'before_widget' => '<div class="single">',
 		'after_widget'  => '</div>',
-		'before_title'  => '<h3 class="widget-title">',
-		'after_title'   => '</h3>',
+		'before_title'  => '<h2 class="widget-title custom-widget-title">',
+		'after_title'   => '</h2>',
 	) );
 
 	register_sidebar( array(

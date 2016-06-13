@@ -2313,3 +2313,9 @@ ul, li{
 .custom-container{
   width: 900px;
 }
+.custom-widget-title{
+  height: 46px;
+  background-image: url(../../../../uploads/ube_r10_c3.jpg);
+  background-size: 627px 46px;
+  background-repeat:no-repeat;
+}

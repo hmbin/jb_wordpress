@@ -4,7 +4,7 @@ Donate link: http://huge-it.com/slider/
 Tags: slider, slideshow, wordpress slider, content slider, image slider, Photo Slider, slider plugin, responsive slider, carousel slider, wp slider, vertical slider, image slider, post slider, video slider, touch slider, youtube slider, wordpress slideshow, gallery, gallery slider,
 Requires at least: 3.0.1
 Tested up to: 4.5.2
-Stable tag: 3.1.85
+Stable tag: 3.1.86
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -209,12 +209,12 @@ If you think, that you found a bug in our [WordPress Slider](http://huge-it.com/
 
 == Screenshots ==
 
-1.  WordPress slider - Demo 1 mixed slider.
-12.  WordPress slider - Demo 1 mixed slider.
-13.  WordPress slider - Demo 2 Youtube slider.
-14.  WordPress slider - Demo 3 Vimeo slider.
-2.  WordPress slider - Demo 4 Post slider.
-3.  WordPress slider - Demo 5 Thumbnail slider.
+1.  [WordPress slider](http://huge-it.com/wordpress-slider-demo-1-mixed-slider/) - Demo 1 mixed slider.
+12.  [WordPress slider](http://huge-it.com/wordpress-slider-demo-1-mixed-slider/) - Demo 1 mixed slider.
+13.  [WordPress slider](http://huge-it.com/wordpress-slider-demo-2-youtube-slider/) - Demo 2 Youtube slider.
+14.  [WordPress slider](http://huge-it.com/wordpress-slider-demo-3-vimeo-slider/) - Demo 3 Vimeo slider.
+2.  [WordPress slider](http://huge-it.com/wordpress-slider-demo-4-post-sliders/) - Demo 4 Post slider.
+3.  [WordPress slider](http://huge-it.com/wordpress-slider-demo-5-thumbnail-navigation/) - Demo 5 Thumbnail slider.
 4.  [WordPress Slider](http://wordpress.org/plugins/slider-image) - Slides admin page.  
 5.  [WordPress Slider](http://huge-it.com/slider) - Sliders admin page. 
 6.  [WordPress slider](http://huge-it.com/slider) - Post Slider.    
@@ -309,6 +309,9 @@ There are errors in site/theme, or some other external reason, our support team 
 If you think, that you found a bug in our [WordPress Slider](http://huge-it.com/slider/) plugin or have any question contact us at [info@huge-it.com](mailto:info@huge-it.com)
 
 == Changelog ==
+
+= 3.1.86 =
+* Css and javascript bugs have been fixed.
 
 = 3.1.85 =
 * Firefox and explorer pause on hover bug fix, enqueue update.

@@ -2338,3 +2338,11 @@ ul, li{
 .site-footer small, .footer-links a {
   padding-top: 0;
 }
+.custom-profile-title{
+  padding-top: 100px;
+}
+.company_banner {
+  width: 100%;
+  height: 85px;
+  background: url(../../../../uploads/company_r1_c1.jpg) no-repeat center top;
+}

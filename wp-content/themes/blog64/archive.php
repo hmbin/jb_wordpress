@@ -28,7 +28,7 @@ get_header(); ?>
                    }
             ?>
  			
-
+            <?php include (TEMPLATEPATH . '/custom_category.php'); ?>
               <?php include (TEMPLATEPATH . '/profile.php'); ?>
 
 

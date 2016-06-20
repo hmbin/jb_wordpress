@@ -2,6 +2,17 @@
 /* ==========================================================================
    1.General
    ========================================================================== */
+@font-face {  
+    /* font-properties */  
+    font-family: msyh;  
+    src:url('../fonts/msyh.ttf');
+}
+
+@font-face {  
+    /* font-properties */  
+    font-family: majalla;  
+    src:url('../fonts/majalla.ttf');
+}
 
 html {
   box-sizing: border-box;
@@ -14,11 +25,17 @@ html {
 }
 
 body {
-  background: #fff; /* Fallback for when there is no custom background color defined. */
-  font-family: 'Josefin Sans', sans-serif !important;
-  font-weight: 400;
-  font-size: 18px;
-  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  font-family: msyh;
+  color: #333;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+p, span, h1, h2, h3, h4, h5, dl, dd, dt, form {
+    margin: 0;
+    padding: 0;
 }
 
 article,
@@ -526,7 +543,7 @@ body.admin-bar .header {
   text-transform: uppercase; 
   font-weight: 800;
   font-size: 14px; 
-  font-family: Josefin Sans;
+  font-family: msyh;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
@@ -575,7 +592,7 @@ body.admin-bar .header {
 }
 
 .logo > a{
-  font-family: Josefin Sans; 
+  font-family: msyh; 
   font-weight: 800;
 }
 
@@ -2338,11 +2355,117 @@ ul, li{
 .site-footer small, .footer-links a {
   padding-top: 0;
 }
-.custom-profile-title{
-  padding-top: 100px;
-}
 .company_banner {
   width: 100%;
   height: 85px;
   background: url(../../../../uploads/company_r1_c1.jpg) no-repeat center top;
+}
+.blogpage{
+  padding-top: 60px;
+}
+.custom-content{
+  width: 900px;
+  margin: 0 auto;
+}
+.company_right {
+  width: 665px;
+  float: left;
+}
+.company_content {
+  padding: 1px 0 0 30px;
+}
+.top20 {
+  margin-top: 20px;
+}
+.company_title {
+  padding: 7px 8px 0 10px;
+  border: #E8E8E8 1px solid;
+  background: #009FE8;
+  -webkit-box-shadow: 0px 3px 5px #DAD8D7;
+  -moz-box-shadow: 0px 3px 5px #DAD8D7;
+  box-shadow: 0px 3px 5px #DAD8D7;
+}
+.company_title p {
+  height: 25px;
+  color: #FFF;
+  font-size: 18px;
+  line-height: 24px;
+  padding-left: 10px;
+  border-left: #FFF 5px solid;
+  font-weight: bold;
+}
+.top15 {
+  margin-top: 15px;
+}
+.company_group {
+  height: 35px;
+  color: #231815;
+  font-size: 15px;
+  line-height: 30px;
+  padding-left: 15px;
+  border-bottom: #D5D5D5 1px solid;
+  background: url(../../../../uploads/company_r11_c6.jpg) no-repeat;
+  font-weight: bold;
+}
+.company_mac {
+  width: 390px;
+  float: left;
+  color: #333;
+  font-size: 12px;
+  line-height: 20px;
+}
+.right {
+  float: right;
+}
+.top35 {
+  margin-top: 35px;
+}
+.company_table {
+  border-top: #C8C9CA 1px solid;
+  border-left: #C8C9CA 1px solid;
+}
+.company_table td {
+  border-right: #C8C9CA 1px solid;
+  border-bottom: #C8C9CA 1px solid;
+  padding: 10px 0 10px 20px !important;
+  font-size: 13px;
+}
+
+.company_content h2 {
+  display: block;
+  font-size: 1.5em;
+  -webkit-margin-before: 0.83em;
+  -webkit-margin-after: 0.83em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-weight: bold;
+}
+.custom-sidebar-left{
+  width: 231px;
+  float: left;
+  margin-top: 2px;
+  border: #E8E8E8 1px solid;
+  padding: 1px;
+  -webkit-box-shadow: 3px 0px 5px #DAD8D7;
+  -moz-box-shadow: 3px 0px 5px #DAD8D7;
+  box-shadow: 3px 0px 5px #DAD8D7;
+}
+.custom-sidebar-left .widget-title{
+  width: 221px;
+  height: 32px;
+  padding: 6px 0 0 10px;
+  background: #009FE8;
+}
+.company_content img{
+  margin: 0;
+  padding: 0;
+  border-style: none;
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  font-size: 0;
+  height: 0;
 }

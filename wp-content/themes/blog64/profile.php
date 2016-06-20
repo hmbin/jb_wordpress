@@ -7,9 +7,8 @@
  */
 ?>
 
-<div class="company_banner"></div>
-<div class="custom-content-right">
-  <?php if( is_front_page() ) : ?>
-    <?php echo do_shortcode("[include-page id='/content_right']"); ?>
-  <?php endif; ?>  
+<div class="company_right">
+  <div class="company_content">
+    <?php echo do_shortcode("[include-page id='/profile']"); ?>
+  </div>
 </div>

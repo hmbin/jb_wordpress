@@ -24,7 +24,14 @@
 	    $category = get_category($cat_ID);
 	    $cat_slug =  $category->slug;
 	    //echo "string".$cat_slug;
-    	echo do_shortcode("[include-page id='".$cat_slug."']");
+	    $html_code = do_shortcode("[include-page id='".$cat_slug."']");
+	    if($html_code){
+	    	echo do_shortcode("[include-page id='".$cat_slug."']");
+	    }else{
+	    	header("Location:product/"); 
+	    }
+    	
 	?>
+
   </div>
 </div>

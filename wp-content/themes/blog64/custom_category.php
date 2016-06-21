@@ -6,7 +6,7 @@ $orderby      = 'name';
 $show_count   = 0;      // 1 for yes, 0 for no
 $pad_counts   = 0;      // 1 for yes, 0 for no
 $hierarchical = 1;      // 1 for yes, 0 for no
-$title        = '';
+$title        = '<h2 class="title"><p>产品介绍<span>PRODUCT</span></p></h2>';
 $hide_empty   = 0;
 $child_of     = 6;
  
@@ -22,7 +22,10 @@ $args = array(
   'child_of'     => $child_of
 );
 ?>
+<div class="custom-sidebar-left">
+  <ul>
+    <?php wp_list_categories( $args ); ?>
+  </ul>
+</div>
+
  
-<ul>
-<?php wp_list_categories( $args ); ?>
-</ul>

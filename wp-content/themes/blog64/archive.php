@@ -10,7 +10,8 @@
 get_header(); ?>
 
 <section class="blogpage section-spacing">
-  <div class="company_banner"></div>
+
+  <!-- <div class="company_banner"></div> -->
 	<div class="container">
 
 		<div class="custom-content">
@@ -29,6 +30,7 @@ get_header(); ?>
             ?>
  			
             <?php include (TEMPLATEPATH . '/custom_category.php'); ?>
+
               <?php include (TEMPLATEPATH . '/profile.php'); ?>
 
 

@@ -31,7 +31,14 @@ get_header(); ?>
  			
             <?php include (TEMPLATEPATH . '/custom_category.php'); ?>
 
-              <?php include (TEMPLATEPATH . '/profile.php'); ?>
+              <?php 
+                $c_url = 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
+                if(strpos($c_url,"/news")){
+                  include (TEMPLATEPATH . '/news.php');
+                }else{
+                  include (TEMPLATEPATH . '/profile.php'); 
+                }
+              ?>
 
 
 			<?php  if ($sidebar == 'right'){

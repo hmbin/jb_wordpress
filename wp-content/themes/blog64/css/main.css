@@ -2567,3 +2567,27 @@ ul, li {
 .contact_an span {
   padding-left: 30px;
 }
+.advisory_table {
+  border: #B4B4B5 2px solid;
+  border-bottom: #B4B4B5 1px solid;
+}
+.advisory_table td {
+  padding: 10px !important;
+  border-bottom: #B4B4B5 1px solid;
+}
+.left10 {
+  padding-left: 10px;
+}
+.advisory_red {
+  color: #E50012;
+}
+.advisory_w425 {
+  width: 425px !important;
+}
+.advisory_button {
+  width: 180px;
+  height: 48px;
+  border: none;
+  cursor: pointer;
+  background: url(../../../../uploads/advisory_r2_c2.jpg) no-repeat;
+}

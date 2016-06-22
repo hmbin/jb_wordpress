@@ -739,6 +739,7 @@ body.admin-bar .header {
    ========================================================================== */
 
 .section-spacing.site-footer{
+  margin-top: 50px;
   display: block;
   clear: both;
   overflow: hidden;
@@ -2478,8 +2479,8 @@ ul, li {
 }
 .custom-sidebar-left ul {
   width: 229px;
-  border-left: #F6F6F6 1px solid;
-  border-right: #F6F6F6 1px solid;
+  /*border-left: #F6F6F6 1px solid;
+  border-right: #F6F6F6 1px solid;*/
 }
 .company_left ul li a {
   width: 190px;
@@ -2534,7 +2535,7 @@ ul, li {
   font-weight: normal;
 }
 .company_content p{
-  line-height: 25px;
+  line-height: 30px;
 }
 .company_title p span {
   font-size: 8px;
@@ -2557,4 +2558,15 @@ ul, li {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+}
+.contact_f24 {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 32px;
+}
+.contact_an {
+  padding: 45px 0 0 130px;
+}
+.contact_an span {
+  padding-left: 30px;
 }

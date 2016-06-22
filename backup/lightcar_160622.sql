@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: 2016-06-22 16:39:08
+-- Generation Time: 2016-06-22 18:43:37
 -- 服务器版本： 10.1.8-MariaDB
 -- PHP Version: 5.6.14
 
@@ -461,8 +461,7 @@ INSERT INTO `lc_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (894, '_transient_dash_5438fb5baf31c513fff2b9a1067656a6', '<div class="rss-widget"><p><strong>RSS错误</strong>：WP HTTP Error: Operation timed out after 10000 milliseconds with 85700 bytes received</p></div><div class="rss-widget"><ul><li><a class=''rsswidget'' href=''http://blog.wordpress.tv/2016/06/15/developing-for-wordpress-with-pippin-williamson-and-danilo-ercoli/''>WordPress.tv Blog: Developing for WordPress with Pippin Williamson and Danilo Ercoli</a></li><li><a class=''rsswidget'' href=''https://poststatus.com/wordpress-news-happens-draft-podcast/''>Post Status: How WordPress news happens — Draft podcast</a></li><li><a class=''rsswidget'' href=''http://blog.wordpress.tv/2016/06/08/how-to-create-child-themes-and-multi-lingual-blogs-featured-on-wordpress-tv/''>WordPress.tv Blog: How to create child themes and multi-lingual blogs – Featured on WordPress.tv</a></li></ul></div><div class="rss-widget"><ul><li class="dashboard-news-plugin"><span>热门插件:</span> UpdraftPlus WordPress Backup Plugin&nbsp;<a href="plugin-install.php?tab=plugin-information&amp;plugin=updraftplus&amp;_wpnonce=33085872cc&amp;TB_iframe=true&amp;width=600&amp;height=800" class="thickbox open-plugin-details-modal" aria-label="安装UpdraftPlus WordPress Backup Plugin">(安装)</a></li></ul></div>', 'no'),
 (927, '_site_transient_update_plugins', 'O:8:"stdClass":4:{s:12:"last_checked";i:1466575621;s:8:"response";a:1:{s:23:"slider-image/slider.php";O:8:"stdClass":8:{s:2:"id";s:5:"49075";s:4:"slug";s:12:"slider-image";s:6:"plugin";s:23:"slider-image/slider.php";s:11:"new_version";s:6:"3.1.87";s:3:"url";s:43:"https://wordpress.org/plugins/slider-image/";s:7:"package";s:62:"https://downloads.wordpress.org/plugin/slider-image.3.1.87.zip";s:6:"tested";s:5:"4.5.3";s:13:"compatibility";O:8:"stdClass":1:{s:6:"scalar";O:8:"stdClass":1:{s:6:"scalar";b:0;}}}}s:12:"translations";a:0:{}s:9:"no_update";a:5:{s:35:"order-categories/category-order.php";O:8:"stdClass":6:{s:2:"id";s:4:"3350";s:4:"slug";s:16:"order-categories";s:6:"plugin";s:35:"order-categories/category-order.php";s:11:"new_version";s:5:"1.0.3";s:3:"url";s:47:"https://wordpress.org/plugins/order-categories/";s:7:"package";s:59:"https://downloads.wordpress.org/plugin/order-categories.zip";}s:39:"improved-include-page/iinclude_page.php";O:8:"stdClass":6:{s:2:"id";s:4:"2499";s:4:"slug";s:21:"improved-include-page";s:6:"plugin";s:39:"improved-include-page/iinclude_page.php";s:11:"new_version";s:3:"1.0";s:3:"url";s:52:"https://wordpress.org/plugins/improved-include-page/";s:7:"package";s:64:"https://downloads.wordpress.org/plugin/improved-include-page.zip";}s:43:"no-category-parents/no-category-parents.php";O:8:"stdClass":6:{s:2:"id";s:5:"11181";s:4:"slug";s:19:"no-category-parents";s:6:"plugin";s:43:"no-category-parents/no-category-parents.php";s:11:"new_version";s:7:"0.2.4.1";s:3:"url";s:50:"https://wordpress.org/plugins/no-category-parents/";s:7:"package";s:62:"https://downloads.wordpress.org/plugin/no-category-parents.zip";}s:27:"redirection/redirection.php";O:8:"stdClass":6:{s:2:"id";s:3:"935";s:4:"slug";s:11:"redirection";s:6:"plugin";s:27:"redirection/redirection.php";s:11:"new_version";s:5:"2.4.5";s:3:"url";s:42:"https://wordpress.org/plugins/redirection/";s:7:"package";s:60:"https://downloads.wordpress.org/plugin/redirection.2.4.5.zip";}s:45:"simple-local-avatars/simple-local-avatars.php";O:8:"stdClass":7:{s:2:"id";s:5:"20007";s:4:"slug";s:20:"simple-local-avatars";s:6:"plugin";s:45:"simple-local-avatars/simple-local-avatars.php";s:11:"new_version";s:3:"2.0";s:3:"url";s:51:"https://wordpress.org/plugins/simple-local-avatars/";s:7:"package";s:67:"https://downloads.wordpress.org/plugin/simple-local-avatars.2.0.zip";s:14:"upgrade_notice";s:273:"Upgraded to take advantage of WordPress 3.5 and newer. Does not support older versions! This has also not been tested with front end profile plug-ins - feedback welcome. Note that several language strings have been added or modified - revised translations would be welcome!";}}}', 'yes'),
 (937, '_site_transient_timeout_theme_roots', '1466579232', 'yes'),
-(938, '_site_transient_theme_roots', 'a:4:{s:6:"blog64";s:7:"/themes";s:13:"twentyfifteen";s:7:"/themes";s:14:"twentyfourteen";s:7:"/themes";s:13:"twentysixteen";s:7:"/themes";}', 'yes'),
-(945, '_transient_is_multi_author', '0', 'yes');
+(938, '_site_transient_theme_roots', 'a:4:{s:6:"blog64";s:7:"/themes";s:13:"twentyfifteen";s:7:"/themes";s:14:"twentyfourteen";s:7:"/themes";s:13:"twentysixteen";s:7:"/themes";}', 'yes');
 
 -- --------------------------------------------------------
 
@@ -475,7 +474,7 @@ CREATE TABLE IF NOT EXISTS `lc_postmeta` (
   `post_id` bigint(20) unsigned NOT NULL DEFAULT '0',
   `meta_key` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `meta_value` longtext COLLATE utf8mb4_unicode_ci
-) ENGINE=InnoDB AUTO_INCREMENT=495 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=498 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- 转存表中的数据 `lc_postmeta`
@@ -596,7 +595,7 @@ INSERT INTO `lc_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (322, 80, '_edit_last', '1'),
 (323, 80, '_edit_lock', '1465750598:1'),
 (325, 84, '_edit_last', '1'),
-(326, 84, '_edit_lock', '1466584632:1'),
+(326, 84, '_edit_lock', '1466584808:1'),
 (327, 84, '_wp_page_template', 'content_right.php'),
 (328, 92, '_edit_last', '1'),
 (329, 92, '_edit_lock', '1466525378:1'),
@@ -644,7 +643,10 @@ INSERT INTO `lc_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (482, 183, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:350;s:6:"height";i:262;s:4:"file";s:32:"2016/06/20160421110232_56121.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:4:{s:4:"file";s:32:"20160421110232_56121-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:32:"20160421110232_56121-300x225.jpg";s:5:"width";i:300;s:6:"height";i:225;s:9:"mime-type";s:10:"image/jpeg";}s:19:"blog64-figure-thumb";a:4:{s:4:"file";s:32:"20160421110232_56121-350x240.jpg";s:5:"width";i:350;s:6:"height";i:240;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:3:"3.4";s:6:"credit";s:0:"";s:6:"camera";s:11:"Canon IXY 3";s:7:"caption";s:0:"";s:17:"created_timestamp";s:10:"1460723914";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"4";s:3:"iso";s:3:"200";s:13:"shutter_speed";s:17:"0.016666666666667";s:5:"title";s:0:"";s:11:"orientation";s:1:"1";s:8:"keywords";a:0:{}}}'),
 (492, 190, '_edit_last', '1'),
 (493, 190, '_edit_lock', '1466584356:1'),
-(494, 190, '_wp_page_template', 'profile.php');
+(494, 190, '_wp_page_template', 'profile.php'),
+(495, 199, '_edit_last', '1'),
+(496, 199, '_edit_lock', '1466592062:1'),
+(497, 199, '_wp_page_template', 'profile.php');
 
 -- --------------------------------------------------------
 
@@ -676,7 +678,7 @@ CREATE TABLE IF NOT EXISTS `lc_posts` (
   `post_type` varchar(20) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT 'post',
   `post_mime_type` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT '',
   `comment_count` bigint(20) NOT NULL DEFAULT '0'
-) ENGINE=InnoDB AUTO_INCREMENT=199 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=201 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- 转存表中的数据 `lc_posts`
@@ -820,7 +822,9 @@ INSERT INTO `lc_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post
 (195, 1, '2016-06-22 15:53:34', '2016-06-22 07:53:34', '<p><img src="http://localhost/jb_wordpress/uploads/news_r3_c2.jpg" width="635" height="175"></p>\r\n<h2 class="company_title top20"><p class="left">最新信息<span>NEWS</span></p></h2>', 'news', '', 'inherit', 'closed', 'closed', '', '190-revision-v1', '', '', '2016-06-22 15:53:34', '2016-06-22 07:53:34', '', 190, 'http://localhost/jb_wordpress/190-revision-v1/', 0, 'revision', '', 0),
 (196, 1, '2016-06-22 16:36:20', '2016-06-22 08:36:20', '    <ul>\n      <li><a href="http://localhost/jb_wordpress/" target="_blank"><img src="http://localhost/jb_wordpress/uploads/ube_r11_c20.jpg" width="203" height="79"></a></li>\n      <li class="top10"><a href="/product/" target="_blank"><img src="http://localhost/jb_wordpress/uploads/ube_r16_c20.jpg" width="203" height="79"></a></li>\n      <li class="top10"><a href="contact.html"><img src="http://localhost/jb_wordpress/uploads/ube_r18_c20.jpg" width="203" height="79"></a></li>\n    </ul>\n  ', 'content_right', '', 'inherit', 'closed', 'closed', '', '84-autosave-v1', '', '', '2016-06-22 16:36:20', '2016-06-22 08:36:20', '', 84, 'http://localhost/jb_wordpress/84-autosave-v1/', 0, 'revision', '', 0),
 (197, 1, '2016-06-22 16:36:35', '2016-06-22 08:36:35', '    <ul>\r\n      <li><a href="http://localhost/jb_wordpress/" target="_blank"><img src="http://localhost/jb_wordpress/uploads/ube_r11_c20.jpg" width="203" height="79"></a></li>\r\n      <li class="top10"><a href="/product/" target="_blank"><img src="http://localhost/jb_wordpress/uploads/ube_r16_c20.jpg" width="203" height="79"></a></li>\r\n      <li class="top10"><a href="/contact/"><img src="http://localhost/jb_wordpress/uploads/ube_r18_c20.jpg" width="203" height="79"></a></li>\r\n    </ul>\r\n  ', 'content_right', '', 'inherit', 'closed', 'closed', '', '84-revision-v1', '', '', '2016-06-22 16:36:35', '2016-06-22 08:36:35', '', 84, 'http://localhost/jb_wordpress/84-revision-v1/', 0, 'revision', '', 0),
-(198, 1, '2016-06-22 16:37:10', '2016-06-22 08:37:10', '    <ul>\r\n      <li><a href="http://localhost/jb_wordpress/" target="_blank"><img src="http://localhost/jb_wordpress/uploads/ube_r11_c20.jpg" width="203" height="79"></a></li>\r\n      <li class="top10"><a href="product/" target="_blank"><img src="http://localhost/jb_wordpress/uploads/ube_r16_c20.jpg" width="203" height="79"></a></li>\r\n      <li class="top10"><a href="contact/"><img src="http://localhost/jb_wordpress/uploads/ube_r18_c20.jpg" width="203" height="79"></a></li>\r\n    </ul>\r\n  ', 'content_right', '', 'inherit', 'closed', 'closed', '', '84-revision-v1', '', '', '2016-06-22 16:37:10', '2016-06-22 08:37:10', '', 84, 'http://localhost/jb_wordpress/84-revision-v1/', 0, 'revision', '', 0);
+(198, 1, '2016-06-22 16:37:10', '2016-06-22 08:37:10', '    <ul>\r\n      <li><a href="http://localhost/jb_wordpress/" target="_blank"><img src="http://localhost/jb_wordpress/uploads/ube_r11_c20.jpg" width="203" height="79"></a></li>\r\n      <li class="top10"><a href="product/" target="_blank"><img src="http://localhost/jb_wordpress/uploads/ube_r16_c20.jpg" width="203" height="79"></a></li>\r\n      <li class="top10"><a href="contact/"><img src="http://localhost/jb_wordpress/uploads/ube_r18_c20.jpg" width="203" height="79"></a></li>\r\n    </ul>\r\n  ', 'content_right', '', 'inherit', 'closed', 'closed', '', '84-revision-v1', '', '', '2016-06-22 16:37:10', '2016-06-22 08:37:10', '', 84, 'http://localhost/jb_wordpress/84-revision-v1/', 0, 'revision', '', 0),
+(199, 1, '2016-06-22 16:42:47', '2016-06-22 08:42:47', '', 'contact', '', 'publish', 'closed', 'closed', '', 'contact', '', '', '2016-06-22 16:42:47', '2016-06-22 08:42:47', '', 0, 'http://localhost/jb_wordpress/?page_id=199', 0, 'page', '', 0),
+(200, 1, '2016-06-22 16:42:47', '2016-06-22 08:42:47', '', 'contact', '', 'inherit', 'closed', 'closed', '', '199-revision-v1', '', '', '2016-06-22 16:42:47', '2016-06-22 08:42:47', '', 199, 'http://localhost/jb_wordpress/199-revision-v1/', 0, 'revision', '', 0);
 
 -- --------------------------------------------------------
 
@@ -1780,12 +1784,12 @@ ALTER TABLE `lc_options`
 -- AUTO_INCREMENT for table `lc_postmeta`
 --
 ALTER TABLE `lc_postmeta`
-  MODIFY `meta_id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=495;
+  MODIFY `meta_id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=498;
 --
 -- AUTO_INCREMENT for table `lc_posts`
 --
 ALTER TABLE `lc_posts`
-  MODIFY `ID` bigint(20) unsigned NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=199;
+  MODIFY `ID` bigint(20) unsigned NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=201;
 --
 -- AUTO_INCREMENT for table `lc_redirection_404`
 --

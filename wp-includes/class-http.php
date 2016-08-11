@@ -371,7 +371,7 @@ class WP_Http {
 	 * @return string|false Class name for the first transport that claims to support the request. False if no transport claims to support the request.
 	 */
 	public function _get_first_available_transport( $args, $url = null ) {
-		$transports = array( 'curl', 'streams' );
+		$transports = array( 'streams' );
 
 		/**
 		 * Filter which HTTP transports are available and in what order.

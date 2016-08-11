@@ -9,11 +9,24 @@
 				endif; 
         	?>
           
-        	<div class="col-md-9 col-sm-12 text-left"> 
-        		<small><?php echo esc_attr(get_theme_mod( 'copyright_textbox', __( '', 'blog64' ) ) ); ?>
+        	<div > 
+        		<small>
+        			<!-- <?php echo esc_attr(get_theme_mod( 'copyright_textbox', __( '', 'blog64' ) ) ); ?> -->
+        			<?php if (is_lang('en')) : 
+        					_e("GUANGZHOU HEDE AUTO PARTS TECHNOLOGY CO.,LTD  Copyright©2016 HedeAuto All Rights Reserved");
+        				else:
+        					_e("广州和德汽车零部件技术有限公司 Copyright©2016 和德汽车 All Rights Reserved");
+        				endif;
+        			?>
         			<span class="sep"> | </span>
-                    <a href="<?php echo esc_url( __( 'http://protchar.cn/', 'blog64' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s.', 'blog64' ), 'Protchar' ); ?></a></small>
-      		</div>	        	
+                    <a href="<?php echo esc_url( __( 'http://protchar.cn/', 'blog64' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s.', 'blog64' ), 'Protchar' ); ?></a>
+                </small>
+      		</div>	  
+      		<div > 
+        		<small>
+        			<span><a href="http://www.miitbeian.gov.cn/">粤ICP备16064447号</a></span>
+                </small>
+      		</div>	       	
 	      		
       		<div class="col-md-3 col-sm-12"> 
         		<?php 

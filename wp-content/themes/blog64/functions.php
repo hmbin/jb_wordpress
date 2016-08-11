@@ -260,3 +260,7 @@ require get_template_directory() . '/inc/jetpack.php';
 
 // Register Custom Navigation Walker
 require get_template_directory() . '/inc/wp_bootstrap_navwalker.php';
+
+function is_lang($lang) {
+   return (WPGlobus::Config()->language == $lang) ? true : false;
+}
